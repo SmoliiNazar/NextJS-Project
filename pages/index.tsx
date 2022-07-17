@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '../node_modules/next/image';
 import styles from '../styles/Home.module.css';
 
 export default function Home(): JSX.Element {
