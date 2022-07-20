@@ -8,8 +8,8 @@ export default function Home(): JSX.Element {
         <Htag tag='h2'>Photoshop courses h2</Htag>
         <Htag tag='h3'>Photoshop courses h3</Htag>
 
-        <Button appearance={'primary'}>Primary</Button>
-        <Button appearance={'ghost'}>Ghost</Button>
+        <Button arrow='primary-right' appearance={'primary'}>Primary</Button>
+        <Button arrow='right' appearance={'ghost'}>Ghost</Button>
       </div>
   );
 }
