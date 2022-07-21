@@ -1,1 +1,1 @@
-# Учебный проект на NextJS
+# Educational project on NextJS
