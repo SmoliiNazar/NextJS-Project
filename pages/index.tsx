@@ -14,15 +14,15 @@ function Home(): JSX.Element {
 			<P>default</P>
 			<P p='big'>big</P>
 
-			<Tag size='default' color='primary'>Default primary tag</Tag>
+			<Tag size='default' color='primary'>Default!</Tag>
 			
-			<Tag size='small' color='red'>red Tag Component!</Tag>
+			<Tag size='small' color='red'>red!</Tag>
 			
-			<Tag size='small' color='green'>green Tag Component!</Tag>
+			<Tag size='small' color='green'>green!</Tag>
 			
-			<Tag size='small' color='grey'>grey Tag Component!</Tag>
+			<Tag size='small' color='grey'>grey!</Tag>
 			
-			<Tag size='small' color='ghost'>ghost Tag Component!</Tag>
+			<Tag size='small' color='ghost'>ghost!</Tag>
 		
 			<Rating rating={rating} isEditable setRating={setRating}/>
 		</>

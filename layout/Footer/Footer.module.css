@@ -1,0 +1,38 @@
+.footer {
+    display: grid;
+    padding: 25px 30px;
+    grid-template-columns: 1fr repeat(2, auto);
+    gap: 10px 40px;
+    grid-template-areas: 
+        "title tile firstLink secLink";
+    background-color: var(--primary);
+    color: var(--white);
+    line-height: 20px;
+}
+
+.footer > a:hover {
+    transition: all .3s;
+    color: var(--gray-light);
+    text-decoration: underline var(--gray-light);
+}
+
+.title {
+    grid-area: title;
+}
+
+.firstLink {
+    grid-area: firstLink;
+}
+.secLink {
+    grid-area: secLink;
+}
+
+@media (max-width: 765px) {
+    .footer {
+        grid-template-areas: 
+            "title"
+            "firstLink"
+            "secLink";
+        text-align: center;
+    }
+}
